@@ -1,6 +1,6 @@
 {
-  "name": "@storybook/react",
-  "version": "5.1.11",
+  "name": "@ouihelp/storybook-react",
+  "version": "5001011.0.0",
   "description": "Storybook for React: Develop React Component in isolation with Hot Reloading.",
   "keywords": [
     "storybook"
