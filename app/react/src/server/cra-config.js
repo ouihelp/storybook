@@ -176,7 +176,7 @@ export function applyCRAWebpackConfig(baseConfig, configDir) {
   );
 
   //  Load create-react-app config
-  const craWebpackConfig = getCraWebpackConfig(baseConfig.mode);
+  const craWebpackConfig = getCraWebpackConfig(baseConfig.mode)[0];
 
   const craStyleRules = getStyleRules(craWebpackConfig.module.rules);
   const craTypeScriptRules = hasTsSupport
